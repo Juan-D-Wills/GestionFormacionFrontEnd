@@ -2,7 +2,7 @@
 //const baseURL = "http://localhost:8000";
 
 const baseURL =
-  import.meta.env.VITE_API_BASE_URL || "https://api.gestionformacion.tech";
+  import.meta.env.VITE_API_URL || "http://localhost:5000";
 
 // Tipos para mayor robustez
 interface ApiClientOptions {
